@@ -17,7 +17,7 @@ To use this SDK, you'll need to import the `CallControl` class into your project
 and instantiate it with your `baseUrl` and `bearerToken`.
 
 ```typescript
-import { CallControl, DialResponse } from "call-control-sdk";
+import { CallControl, DialResponse } from "https://deno.land/x/voxo_call_control@v1.0.1/mod.ts";
 
 const cc = new CallControl({
   baseUrl: "https://your-api-url.com",
